@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+results/
+*.h5
+*.keras
+*.tflite
+*.zip

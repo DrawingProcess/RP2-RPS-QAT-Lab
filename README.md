@@ -14,6 +14,7 @@ RP2-RPS-QAT-Lab/
     1/  rock
     2/  paper
   notebooks/
+    RPS_Classification_DenseNet121_지난주실습.ipynb
     RPS_QAT_DenseNet121_초보자용.ipynb
     RPS_QAT_ResNet50_초보자용.ipynb
   .gitignore
@@ -73,6 +74,12 @@ VSCode에서 노트북 커널을 `.venv`로 선택합니다.
 
 ## 4. 실행할 노트북
 
+지난주 기본 실습:
+
+```text
+notebooks/RPS_Classification_DenseNet121_지난주실습.ipynb
+```
+
 기본 권장:
 
 ```text
@@ -85,7 +92,7 @@ notebooks/RPS_QAT_DenseNet121_초보자용.ipynb
 notebooks/RPS_QAT_ResNet50_초보자용.ipynb
 ```
 
-DenseNet121 버전을 먼저 실행한 뒤 ResNet50 버전과 비교하는 것을 권장합니다.
+지난주 기본 실습을 먼저 확인한 뒤, DenseNet121 QAT 버전과 ResNet50 QAT 버전을 비교하는 것을 권장합니다.
 
 ## 5. 데이터셋 경로
 
@@ -104,6 +111,8 @@ Class folders: ['0', '1', '2']
 
 ```text
 results/
+  RPS_PreTrained_DenseNet.keras
+  RPS_PreTrained_DenseNet.tflite
   RPS_PreTrained_DenseNet_Augmentation_QAT.h5
   RPS_PreTrained_DenseNet_Augmentation_QAT.tflite
 ```

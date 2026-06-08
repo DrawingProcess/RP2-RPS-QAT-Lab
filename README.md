@@ -9,6 +9,7 @@
 ```text
 RP2-RPS-QAT-Lab/
   README.md
+  setup-guide.md
   RPS_Dataset/
     0/  scissors
     1/  rock
@@ -62,6 +63,8 @@ nvidia-smi
 ```
 
 ## 3. Python 환경 준비
+
+상세한 개발환경 설정은 `setup-guide.md`를 따릅니다.
 
 ```bash
 python3 -m venv .venv
